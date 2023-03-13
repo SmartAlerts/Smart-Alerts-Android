@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="app.smartalerts">
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <application
+        android:name=".SmartAlertsApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_android_black_24dp"
+        android:label="Smart Alerts"
+        android:roundIcon="@drawable/ic_android_black_24dp"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.Holo.Light.NoActionBar">
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+</manifest>
